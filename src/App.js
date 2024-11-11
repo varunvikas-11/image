@@ -1,12 +1,16 @@
-import MenuAppBar from './Appbar';
+import SearchAppBar from './Appbar';
 import BasicRating from './Rating';
 import CircularIndeterminate from './progress';
+import ImageAvatars from './avatar';
+import Footer from './Footer';
 function App() {
   return (
     <div>
-      <MenuAppBar/>
+      <SearchAppBar/>
       <BasicRating/>
       <CircularIndeterminate/>
+      <ImageAvatars/>
+      <Footer/>
     </div>
   );
 }
